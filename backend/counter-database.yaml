@@ -1,1 +1,8 @@
-filler
+apiVersion: v1
+kind: Secret
+metadata:
+  name: counter-database
+data:
+  database-name: pinguin
+  database-user: admin
+  database-password: passwort
