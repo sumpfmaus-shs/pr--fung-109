@@ -3,6 +3,6 @@ kind: Secret
 metadata:
   name: counter-database
 data:
-  database-name: pinguin
-  database-user: admin
-  database-password: passwort
+  database-name: 'cGluZ3Vpbg=='
+  database-user: 'YWRtaW4='
+  database-password: 'cGFzc3dvcnQ='

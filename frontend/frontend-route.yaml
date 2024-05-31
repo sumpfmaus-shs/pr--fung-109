@@ -7,7 +7,7 @@ spec:
     kind: Service
     name: counter-frontend
   port:
-    targetPort: 80
+    targetPort: 3000-tcp
   tls:
     termination: edge
     insecureEdgeTerminationPolicy: Redirect

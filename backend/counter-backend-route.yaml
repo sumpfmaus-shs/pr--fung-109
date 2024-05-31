@@ -7,7 +7,7 @@ spec:
     kind: Service
     name: counter-backend  # Name des zuvor erstellten Services
   port:
-    targetPort: 8080  # Der Port, auf den der Service eingerichtet wurde
+    targetPort: 8080-tcp  # Der Port, auf den der Service eingerichtet wurde
   tls:
     termination: edge  # Aktiviert HTTPS
     insecureEdgeTerminationPolicy: Redirect  # Leitet alle HTTP-Anfragen auf HTTPS um

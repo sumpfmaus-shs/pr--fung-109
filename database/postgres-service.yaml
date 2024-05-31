@@ -6,6 +6,7 @@ spec:
   selector:
     app: counter-database
   ports:
-  - protocol: TCP
+  - name: 5432-tcp
+    protocol: TCP
     port: 5432
     targetPort: 5432
