@@ -22,3 +22,6 @@ spec:
         env:
         - name: BACKEND_URL
           value: counter-backend-nibr-1-dev.apps.sandbox-m2.ll9k.p1.openshiftapps.com
+        - name: npm_config_cache
+          value: ./.npm-cache
+
