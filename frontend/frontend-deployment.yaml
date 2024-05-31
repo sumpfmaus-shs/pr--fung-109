@@ -1,6 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
+  name: counter-frontend
   labels:
     app: counter-frontend
 spec:
@@ -15,7 +16,7 @@ spec:
     spec:
       containers:
       - name: counter-frontend
-        image: /counter-frontend:v1
+        image: ghcr.io/thedefendhand/counter-frontend:v1
         ports:
         - containerPort: 80
         env:
